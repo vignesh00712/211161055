@@ -41,38 +41,49 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However, we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+# E-Commerce Frontend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This is a React-based frontend application for an e-commerce website. The application displays a list of products and detailed information for each product.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
+
+- Displays a list of products with details such as name, price, rating, discount, and availability.
+- Each product links to a detailed page with more information.
+- Uses React Router for navigation between pages.
+- Fetches product data from a mock API.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- You have installed Node.js and npm.
+- You have a basic understanding of JavaScript, React, and CSS.
+
+## Installation
+
+To install and set up the project, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/ecommerce-frontend.git
+    cd ecommerce-frontend
+    ```
+
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+    ```bash
+    npm start
+    ```
+
+The application will start on [http://localhost:3000](http://localhost:3000).
+
+## Project Structure
 
 
-
-for Ecommerce
-
-Instructions
-Initialize the Project:
-
-bash
-
-Copy code
-npx create-react-app ecommerce-frontend
-cd ecommerce-frontend
-Add React Router:
-
-bash
-Copy code
-npm install react-router-dom
-Create the Folder Structure: Create the components and pages folders inside the src directory.
-
-Add the Code: Copy the provided code into the respective files.
-
-Run the Project:
-
-bash
-Copy code
-npm start
 
 
 
